@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="60dp"
+            android:textSize="20dp"
+            android:text="Username :">
+        </TextView>
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/user"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="60dp"
+            android:textSize="20dp"
+            android:text="Password :">
+        </TextView>
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="32dp"
+            android:id="@+id/pass"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="60dp"
+            android:textSize="20dp"
+            android:text="Gender :">
+        </TextView>
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="58dp"
+            android:id="@+id/gender"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="60dp"
+            android:textSize="20dp"
+            android:text="Hobby :">
+        </TextView>
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="64dp"
+            android:layout_marginBottom="40dp"
+            android:id="@+id/hobby"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="60dp"
+            android:textSize="20dp"
+            android:text="Are you a Student ? ">
+        </TextView>
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="25dp"
+            android:id="@+id/student"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

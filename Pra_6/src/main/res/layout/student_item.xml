@@ -1,0 +1,30 @@
+<!-- student_item.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/student_photo"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/pra6_1" />
+
+    <TextView
+        android:id="@+id/student_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student Name"
+        android:textSize="16sp"
+        android:layout_marginStart="16dp" />
+
+    <TextView
+        android:id="@+id/student_roll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Roll Number"
+        android:textSize="14sp"
+        android:layout_marginStart="16dp" />
+</LinearLayout>

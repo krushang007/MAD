@@ -1,0 +1,42 @@
+<!-- student_item.xml -->
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/student_photo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/pra6_1"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/student_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Student Name"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/student_roll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Roll Number"
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="4dp" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
